@@ -140,7 +140,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #000000;
+  background: #464444;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -218,14 +218,14 @@ textarea {
 }
 
 .btn--theme {
-  background: #000000;
+  background: #464444;
   color: #fff;
 }
 
 .btn--theme-inv {
-  color: #000000;
+  color: #464444;
   background: #fff;
-  border: 2px solid #000000;
+  border: 2px solid #464444;
   -webkit-box-shadow: none;
           box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px);
@@ -261,8 +261,8 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../assets/svg/common-bg.svg);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(70, 68, 68, 0.8)), to(rgba(70, 68, 68, 0.8))), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(70, 68, 68, 0.8), rgba(70, 68, 68, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -501,8 +501,8 @@ textarea {
 }
 
 .contact {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../assets/svg/common-bg.svg);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(70, 68, 68, 0.8)), to(rgba(70, 68, 68, 0.8))), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(70, 68, 68, 0.8), rgba(70, 68, 68, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
 }
@@ -632,10 +632,52 @@ textarea {
   }
 }
 
+.profile-pic-container {
+  float: left;
+  /* Float the container to the left */
+  margin-right: 0px;
+  /* Add some margin to create space between the image and the text */
+}
+
+.profile-pic {
+  display: block;
+  width: 700px;
+  height: auto;
+}
+
+.heading-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading-sec__main {
+  margin-right: 10px;
+  /* Adjust the margin as needed */
+}
+
+.heading-sec__sub {
+  shape-outside: circle();
+  /* Creates a circular shape around the image */
+  padding: 20px;
+  /* Adjust the padding as needed */
+}
+
+.header__link--resume {
+  font-weight: bold;
+  /* Increase the font weight to make the text bolder */
+  color: #f00;
+  /* Change the color to make it stand out */
+  /* Add any additional styles to enhance the visibility */
+}
+
 .project-cs-hero {
   color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../assets/svg/common-bg.svg);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(70, 68, 68, 0.8)), to(rgba(70, 68, 68, 0.8))), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(70, 68, 68, 0.8), rgba(70, 68, 68, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -812,7 +854,7 @@ textarea {
 }
 
 .header__logo-container:hover {
-  color: #000000;
+  color: #464444;
 }
 
 .header__logo-img-cont {
@@ -821,7 +863,7 @@ textarea {
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #000000;
+  background: #464444;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -874,7 +916,7 @@ textarea {
 }
 
 .header__link:hover {
-  color: #000000;
+  color: #464444;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -946,7 +988,7 @@ textarea {
 }
 
 .header__sm-menu-link a:hover {
-  color: #000000;
+  color: #464444;
 }
 
 .header__sm-menu-link:first-child a {
@@ -955,6 +997,18 @@ textarea {
 
 .header__sm-menu-link-last {
   border-bottom: 0;
+}
+
+.header__link--resume {
+  font-weight: bold;
+  color: #f00;
+  font-size: 20px;
+  /* Increase the font size as desired */
+  border: 2px solid #000;
+  /* Add a solid black border with 2px width */
+  padding: 5px 10px;
+  /* Add padding around the text to create some space */
+  /* Add any additional styles to enhance the visibility */
 }
 
 .main-footer {

@@ -22,8 +22,8 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/png/IMG_8334.png"
+              alt="Navin Sanjay Logo Image"
               class="header__logo-img"
             />
           </div>
@@ -44,6 +44,9 @@
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./assets/Navin_Sanjay_CV_DA.pdf" class="header__link header__link--resume"> Resume </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -84,21 +87,27 @@
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is John Doe</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente solutions for
-            complex problems
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
+        <!-- <video autoplay muted loop class="video-background">
+          <source src="./assets/background.mp4" type="video/mp4">
+        </video> -->
+        <div class="video-overlay">
+          <h1 class="heading-primary">Welcome, My name is Navin Sanjay</h1>
+          <div class="home-hero__info">
+            <p class="text-primary">
+              Motivated by a fascination with the boundless possibilities of data,
+              I embark on an unrelenting quest to master the art of data analysis,
+              skillfully unraveling captivating narratives intricately woven within complex information.
+            </p>
+          </div>
+          <div class="home-hero__cta">
+            <a href="./#projects" class="btn btn--bg">Projects</a>
+          </div>
         </div>
       </div>
+      
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://www.linkedin.com/in/navin-sanjay/" class="home-hero__social-icon-link">
             <img
               src="./assets/png/linkedin-ico.png"
               alt="icon"
@@ -107,7 +116,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://github.com/NavinSanjay" class="home-hero__social-icon-link">
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -115,7 +124,7 @@
             />
           </a>
         </div>
-        <div class="home-hero__social">
+        <!-- <div class="home-hero__social">
           <a href="#" class="home-hero__social-icon-link">
             <img
               src="./assets/png/twitter-ico.png"
@@ -123,8 +132,8 @@
               class="home-hero__social-icon"
             />
           </a>
-        </div>
-        <div class="home-hero__social">
+        </div> -->
+        <!-- <div class="home-hero__social">
           <a href="#" class="home-hero__social-icon-link">
             <img
               src="./assets/png/yt-ico.png"
@@ -132,19 +141,17 @@
               class="home-hero__social-icon"
             />
           </a>
-        </div>
+        </div> -->
         <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
+          <img
+            src="./assets/png/email_ico.png"
+            alt="Email"
+            class="home-hero__social-icon"
+            id="copyEmail"
+          />
         </div>
+        
+        
       </div>
       <div class="home-hero__mouse-scroll-cont">
         <div class="mouse"></div>
@@ -154,52 +161,57 @@
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
+          <div class = "profile-pic-container">
+            <img src = "./assets/png/IMG_8334.png", alt="profile picture", class = "profile-pic">
+          </div>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            I am a passionate analyst with a relentless curiosity for unravelling insights
+            hidden within complex problems. Armed with a strong foundation in Python, SQL,
+            statistics, machine learning algorithms, Tableau, and other various tools for
+            data visualisation and analysis, I thrive on the challenge of translating raw data
+            into meaningful stories that drive informed decisions.
+            <br>
+            <br>
+            My background in mechanical engineering equips me with a unique perspective,
+            strong analytical thinking, problem-solving abilities, and a solid foundation in mathematics,
+            statistics, and data collection. With meticulous attention to detail, an engineering mindset,
+            and a continuous learning approach, I seamlessly blend into the realm of data analysis.
           </span>
         </h2>
+
         <div class="about__content">
           <div class="about__content-main">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
-                <strong>John Doe</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
-              </p>
-              <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
-              </p>
+                <ul style="list-style-type: disc; font-size: 20px;">
+                  <li> <strong>Name</strong>: Navin Sanjay</li>
+                  <br>
+                  <li><strong>Occupation:</strong> Transitioning into the Realm of Data</li>
+                  <br>
+                  <li><strong>Goal:</strong> Data, Insights, Business Analyst Role. 
+                    Entry level Data Scientist Role</li>
+                  <br>
+                  <li><strong>Interests:</strong> Music production, Sports, Outdoors, Continuous learning</li>
+                  <br>
+
+                </ul>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
+            <a href="#" id="contact-button" class="btn btn--med btn--theme dynamicBgClr">
+              Contact</a
             >
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Excel</div>
+              <div class="skills__skill">Tableau</div>
               <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Statistical Analysis</div>
+              <div class="skills__skill">Web Scraping</div>
+              <div class="skills__skill">Communciation Skills</div>
             </div>
           </div>
         </div>
@@ -210,8 +222,6 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
           </span>
         </h2>
 
@@ -219,18 +229,16 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
+                src="./assets/summary_stats/summary_stats_trafficvol.png"
+                alt="traffic_pred_stats"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">Predicting Traffic Volume in New Zealand with Machine Learning</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+              This project aims to develop a predictive model for accurately forecasting traffic volume at a specific location and time. Historical traffic data and relevant features like date, time, day of the week, month, and weather conditions are utilized. Machine learning techniques are employed to capture patterns and trends in the data, enabling accurate predictions of future traffic volumes. The best-performing model is the random forest regression, which outperformed other models in all evaluation metrics. However, predicting traffic volume in 2018 proved challenging due to irregular data, highlighting the need for further improvements in data consistency and comparability. 
               </p>
               <a
                 href="./project-1.html"
@@ -241,53 +249,122 @@
             </div>
           </div>
           <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+            <div class="projects__row-img-cont" style="height: 400px; overflow: auto;">
+              <div class="image-container">
+                <h2 class="image-heading">Customer Purchasing Insights:</h2>
+                <img
+                  src="./assets/summary_stats/1_purchasing_insights_summary.gif" 
+                  alt="purchasing insights"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="image-container">
+                <h2 class="image-heading">Trial Store Assessment Insights:</h2>
+                <img
+                  src="./assets/summary_stats/2_trial_control_store_summary.gif" 
+                  alt="trial_control_store"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">Quantium Data Analytics: Retail Analytics and Strategy</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                A virtual data analytic internship with Quantium through Forage. As part of the Quantium retail analytics team,
+                analysis was conducted on a client's transaction dataset on potato chip purchases and customer purchasing behaviours 
+                were identified to provide commercial recommendations. Analysis was also done on the impact of trial store layout changes
+                on customer sales.  
               </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
+              <a href="https://github.com/NavinSanjay/QuantiumDataAnalytics" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
             </div>
           </div>
+          
           <div class="projects__row">
-            <div class="projects__row-img-cont">
+            <div class="projects__row-img-cont" style="height: 400px; overflow: auto;">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/summary_stats/summary_stats_ufc.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
+              <img
+              src="./assets/summary_stats/ufc_fight.png"
+              alt="Software Screenshot"
+              class="projects__row-img"
+              loading="lazy"
+            />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <h3 class="projects__row-content-title">UFC Outcome Prediction using Machine Learning</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Predictive modelling was used to find the likelihood of a fighter winning by KO/Submission or by Judge Decision. 
+                • Betting agencies can adjust their odds accordingly. 
+                • Individuals can use this information when betting. 
+                Data was taken from the last 10 years of the Lightweight category and assessed to predict the likelihood of a match 
+                resulting in a KO/Submission or Judge Decision. 
               </p>
               <a
-                href="./project-3.html"
+                href="https://github.com/NavinSanjay/UFCFightOutcomePrediction/tree/9581d748287c31cedebac16426b90e9df42f441c"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
               >
             </div>
           </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont" style="height: 400px; overflow: auto;">
+              <img
+                src="./assets/summary_stats/summary_stats_stock.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Sentiment Analysis of News Article Headlines for Stock Market Prediction</h3>
+              <p class="projects__row-content-desc">
+                Predicts whether the dow jones will move up or down based on News Headline feedback. Uses NLP techniques to gain insights.  
+                This allows for additional input over the traditional numeric comparisons. 
+                News gives a good indicator of the general consensus of a stock and people can use this to inform investment decisions.
+              </p>
+              <a
+                href="https://github.com/NavinSanjay/NewsHeadlineSentimentAnalysis/tree/b0ec75906e1814650a47556ba9f901a5dd6c7463"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont" style="height: 400px; overflow: auto;">
+              <img
+                src="./assets/summary_stats/movie_rec.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Movie Recommendation System</h3>
+              <p class="projects__row-content-desc">
+                Based on a movie inputted by a user, this sytem will recommend movies based on the inputted movie and similar movies. 
+                It uses content based and popularity based recommendation systems. 
+              </p>
+              <a
+                href="https://github.com/NavinSanjay/MovieRecommendationSystem"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -296,12 +373,12 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Thank you for taking the time to look at my portfolio. Please feel to
+            contact me on any of my socials. 
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="#" class="contact__form" netlify>
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -351,48 +428,47 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/navin-sanjay/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/NavinSanjay">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="icon"
                 />
-              </a>
+              <!-- </a>
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="icon"
                 />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              </a> -->
+              <!-- <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/yt-ico.png"
                   alt="icon"
                 />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              </a> -->
+              <a target="_blank" rel="noreferrer">
                 <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
+                  src="./assets/png/email_ico.png"
+                  alt="Email"
+                  class="main-footer__icon"
+                  id="copyEmail"
                 />
               </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Navin Sanjay</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
             </p>
           </div>
         </div>

@@ -36,3 +36,32 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+
+
+// ---
+const copyEmail = document.getElementById('copyEmail');
+const email = 'navin.sanjay349@gmail.com';
+
+copyEmail.addEventListener('click', () => {
+  const textarea = document.createElement('textarea');
+  textarea.value = email;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+
+  // Optionally, provide feedback to the user
+  alert('Email Copied!');
+});
+
+document.getElementById("contact-button").addEventListener("click", function() {
+  var email = "navin.sanjay349@gmail.com"; // Replace with the actual email address
+  var tempInput = document.createElement("input");
+  document.body.appendChild(tempInput);
+  tempInput.value = email;
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+  alert("Email copied to clipboard: " + email);
+});
