@@ -666,14 +666,6 @@ textarea {
   /* Adjust the padding as needed */
 }
 
-.header__link--resume {
-  font-weight: bold;
-  /* Increase the font weight to make the text bolder */
-  color: #f00;
-  /* Change the color to make it stand out */
-  /* Add any additional styles to enhance the visibility */
-}
-
 .project-cs-hero {
   color: #fff;
   background: -webkit-gradient(linear, left top, right top, from(rgba(70, 68, 68, 0.8)), to(rgba(70, 68, 68, 0.8))), url(../../assets/svg/common-bg.svg);
