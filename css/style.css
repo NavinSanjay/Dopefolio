@@ -413,20 +413,6 @@ textarea {
   width: 700px;
   height: auto; }
 
-.heading-sec {
-  display: flex;
-  align-items: center; }
-
-.heading-sec__main {
-  margin-right: 10px;
-  /* Adjust the margin as needed */ }
-
-.heading-sec__sub {
-  shape-outside: circle();
-  /* Creates a circular shape around the image */
-  padding: 20px;
-  /* Adjust the padding as needed */ }
-
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(70, 68, 68, 0.8), rgba(70, 68, 68, 0.8)), url(../../assets/svg/common-bg.svg);
